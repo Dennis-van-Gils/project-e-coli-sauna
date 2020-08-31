@@ -1,0 +1,32 @@
+Too high for a single 5W heater:
+18 V, 0.21 A, 3.83 W
+heater eventually reached 115 'C, causing wall of resin casing to blister
+
+
+200827_182502
+-------------
+insulated box, single 5W heater
+15.2 V --> 0.18 A, 2.74 W
+initial internal air heat-up rate: ~1.4 'C per 10 minutes
+
+After 2.0 hours:
+heater temp reaches eventually ~91 'C
+air temp reaches eventually ~33 'C
+
+
+200828_190455
+------------------------------
+insulated box
+parallel heaters, 1x 5 W, 1x 10 W
+OVP: 12 V
+OCP: 0.6 A
+
+Implemented PID control
+   [P, I, D] = [4, 0, 0]
+   Voltage clamp = 12 V
+   setpoint = 37.0 'C
+   
+Max. registered surface temp of hottest heater: 87 'C
+
+Air temp overshot by 1 'C.
+--> Kp might be too high. Try Kp=3. Or leave at 4 and set Kd > 0.
