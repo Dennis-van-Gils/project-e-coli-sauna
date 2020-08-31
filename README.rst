@@ -16,9 +16,10 @@ DHT22 sensor and an Aim TTi digital power supply powering two Kapton film
 heaters.
 
 - Github: https://github.com/Dennis-van-Gils/project-e-coli-sauna
-- Electronic diagram: https://github.com/Dennis-van-Gils/project-e-coli-sauna/docs/electronic_diagram.pdf
 
 .. image:: https://raw.githubusercontent.com/Dennis-van-Gils/project-e-coli-sauna/master/images/screenshot.png
+
+.. image:: https://raw.githubusercontent.com/Dennis-van-Gils/project-e-coli-sauna/master/docs/electronic_diagram.pdf
 
 Instructions
 ============
