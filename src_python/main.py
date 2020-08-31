@@ -66,7 +66,7 @@ CHART_HISTORY_TIME = 7200  # [s]
 # Constants PID
 # Tuned for parallel connected heaters, 1x 5W, 1x 10W
 PID_TEMP_SETPOINT = 37.0  # ['C]
-PID_Kp = 3.5
+PID_Kp = 4.0
 PID_Ki = 0.003
 PID_V_clamp = 12  # [V], limit output voltage driven by the PID
 
