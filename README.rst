@@ -8,6 +8,7 @@
 
 E. coli sauna
 =============
+
 *A Physics of Fluids project.*
 
 A miniature sauna for happy E. coli. A temperature controlled box with humidity
@@ -21,6 +22,7 @@ heaters.
 
 Instructions
 ============
+
 Download the `latest release <https://github.com/Dennis-van-Gils/project-e-coli-sauna/releases/latest>`_
 and unpack to a folder onto your drive. The electronic diagram can be found at
 `doc/electronic_diagram.pdf <https://raw.githubusercontent.com/Dennis-van-Gils/project-e-coli-sauna/master/docs/electronic_diagram.pdf>`_.
