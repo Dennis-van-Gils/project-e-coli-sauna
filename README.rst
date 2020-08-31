@@ -10,12 +10,13 @@ E. coli sauna
 =============
 *A Physics of Fluids project.*
 
-A miniature sauna for happy E coli. A temperature controlled box with humidity
+A miniature sauna for happy E. coli. A temperature controlled box with humidity
 logging made from an Adafruit ItsyBitsy M4 Express micro-controller board, a
 DHT22 sensor and an Aim TTi digital power supply powering two Kapton film
 heaters.
 
 - Github: https://github.com/Dennis-van-Gils/project-e-coli-sauna
+- Electronic diagram: https://github.com/Dennis-van-Gils/project-e-coli-sauna/docs/electronic_diagram.pdf
 
 .. image:: https://raw.githubusercontent.com/Dennis-van-Gils/project-e-coli-sauna/master/images/screenshot.png
 
