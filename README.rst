@@ -19,12 +19,11 @@ heaters.
 
 .. image:: https://raw.githubusercontent.com/Dennis-van-Gils/project-e-coli-sauna/master/images/screenshot.png
 
-.. image:: https://raw.githubusercontent.com/Dennis-van-Gils/project-e-coli-sauna/master/docs/electronic_diagram.pdf
-
 Instructions
 ============
 Download the `latest release <https://github.com/Dennis-van-Gils/project-e-coli-sauna/releases/latest>`_
-and unpack to a folder onto your drive.
+and unpack to a folder onto your drive. The electronic diagram can be found at
+`doc/elecronic_diagram.pdf <https://raw.githubusercontent.com/Dennis-van-Gils/project-e-coli-sauna/master/docs/electronic_diagram.pdf>`_.
 
 Flashing the firmware
 ---------------------
