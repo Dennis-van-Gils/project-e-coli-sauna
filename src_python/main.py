@@ -66,8 +66,8 @@ CHART_HISTORY_TIME = 7200  # [s]
 # Constants PID
 # Tuned for parallel connected heaters, 1x 5W, 1x 10W
 PID_TEMP_SETPOINT = 37.0  # ['C]
-PID_Kp = 2.5
-PID_Ki = 0.0005
+PID_Kp = 3.5
+PID_Ki = 0.003
 PID_V_clamp = 12  # [V], limit output voltage driven by the PID
 
 # Show debug info in terminal? Warning: Slow! Do not leave on unintentionally.
@@ -200,7 +200,7 @@ class MainWindow(QtWid.QWidget):
         self.qlin_pid_Kp = QtWid.QLineEdit("%.1f" % PID_Kp, **p)
         self.qlin_pid_Kp.editingFinished.connect(self.process_qlin_pid_Kp)
 
-        self.qlin_pid_Ki = QtWid.QLineEdit("%.1e" % PID_Ki, **p)
+        self.qlin_pid_Ki = QtWid.QLineEdit("%.0e" % PID_Ki, **p)
         self.qlin_pid_Ki.editingFinished.connect(self.process_qlin_pid_Ki)
 
         self.qlin_pid_V_clamp = QtWid.QLineEdit("%.1f" % PID_V_clamp, **p)
@@ -446,7 +446,7 @@ class MainWindow(QtWid.QWidget):
             raise
 
         pid_Ki = np.clip(pid_Ki, 0, 1)
-        self.qlin_pid_Ki.setText("%.1e" % pid_Ki)
+        self.qlin_pid_Ki.setText("%.0e" % pid_Ki)
         pid.set_tunings(pid.kp, pid_Ki, pid.kd)
 
     @QtCore.pyqtSlot()
