@@ -9,6 +9,7 @@ pyqtgraph==0.11.1  # rq.filter: ==0.11.1
 
 dvg-debug-functions~=2.1
 dvg-devices~=1.0
+dvg-pid-controller~=2.0
 dvg-pyqt-controls~=1.0
 dvg-pyqt-filelogger~=1.1
 dvg-pyqtgraph-threadsafe~=3.1
